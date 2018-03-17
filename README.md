@@ -11,38 +11,37 @@ Make a local database and setup a `knexfile` to connect to it.
 Make a migration that creates the following database table:
 
 `coffee`
-| key | name       | data type                 |
+| key | name | data type |
 | --- | ---------- | ------------------------- |
-| PK  | id         | auto-incrementing integer |
-|     | name       | text                      |
-|     | roaster    | text                      |
-|     | aroma      | integer                   |
+| PK | id | auto-incrementing integer |
+| | name | text |
+| | roaster | text |
+| | aroma | integer |
 
 ### Seed
 
 Seed your database with some data:
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 1                 |
-| name       | Black and Tan     |
-| roaster    | Ink               |
-| aroma      | 3                 |
+| field   | value         |
+| ------- | ------------- |
+| id      | 1             |
+| name    | Black and Tan |
+| roaster | Ink           |
+| aroma   | 3             |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 2                 |
-| name       | Holiday Roast     |
-| roaster    | Starbucks         |
-| aroma      | 9                 |
+| field   | value         |
+| ------- | ------------- |
+| id      | 2             |
+| name    | Holiday Roast |
+| roaster | Starbucks     |
+| aroma   | 9             |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 3                 |
-| name       | House Quake       |
-| roaster    | Denver Coffee     |
-| aroma      | 6                 |
-
+| field   | value         |
+| ------- | ------------- |
+| id      | 3             |
+| name    | House Quake   |
+| roaster | Denver Coffee |
+| aroma   | 6             |
 
 Make sure your next auto-incrementing integer starts with `4`!
 
@@ -68,4 +67,4 @@ Deploy this API. Note that you'll need to create a remote database, run your mig
 
 * You can test your API locally with `npm test`
 
-Add a link to your [deployed API]() here.
+Add a link to your [deployed API]() here. https://memory-drill-2.herokuapp.com/coffees
